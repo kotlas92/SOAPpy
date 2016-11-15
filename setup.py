@@ -27,7 +27,7 @@ setup(
     package_dir = {'': 'src'},
     include_package_data=True,
     install_requires=[
-        'wstools',
+        'wstools=0.4.3',
         'defusedxml',
     ]
 )
